@@ -17,14 +17,9 @@ cd py-bottom-up-attention
 pip install -r requirements.txt
 pip install 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'
 
-# Install detectron2
-python setup.py build develop
-
-# or if you are on macOS
-# MACOSX_DEPLOYMENT_TARGET=10.9 CC=clang CXX=clang++ python setup.py build develop
 
 # or, as an alternative to `setup.py`, do
-# pip install [--editable] .
+# pip install -e .
 ```
 
 ## Demos
